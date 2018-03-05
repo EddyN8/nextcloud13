@@ -7,10 +7,10 @@
 
   roles:
     - prep_os
+    - prep_nginx 
     - prep_php
     - prep_mariadb
     - prep_redis
-    - prep_nginx
     - prep_letsencrypt
     - prep_nextcloud
     - nc_fail2ban
